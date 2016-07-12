@@ -111,25 +111,19 @@ function oddNumbers(anotherArbitrary)
   {
     if (anotherArbitrary > 40)
     {
-      for (x=40; x<=anotherArbitrary; x++)
+      for (x=41; x<=anotherArbitrary; x+=2)
       {
-        if (x % 2 !== 0)
-        {
           console.log(x);
-        }
       }
     }
 
     if (anotherArbitrary < 40)
     {
-      for (j=0; j<=40; j++)
+      for (j=1; j<=40; j+=2)
       {
-        if (j % 2 !== 0)
-        {
           console.log(j);
-        }
       }
     }
   }
 }
-oddNumbers(10);
+oddNumbers(100);
