@@ -103,7 +103,7 @@ console.log(isDivisible(10, 5));
 
 // Bonus: Write a function called oddNumbers that takes an arbitrary integer as an argument, from 0 to 100. If the number is greater than 40 then output all the odd integers from 40 to the arbitrary number. If the number is less than 40, output all the odd integers from 0 to 40.
 
-console.log("Question 6");
+console.log("Question 7");
 
 function oddNumbers(anotherArbitrary)
 {
@@ -117,7 +117,7 @@ function oddNumbers(anotherArbitrary)
       }
     }
 
-    if (anotherArbitrary < 40)
+    if (anotherArbitrary <= 40)
     {
       for (j=1; j<=40; j+=2)
       {
@@ -126,4 +126,4 @@ function oddNumbers(anotherArbitrary)
     }
   }
 }
-oddNumbers(100);
+oddNumbers(40);
